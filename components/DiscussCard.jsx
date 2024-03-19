@@ -18,11 +18,11 @@ const DiscussCard = (props) => {
                 <div className="flex flex-col py-4 pe-4 w-full">
                     <div className="flex items-center justify-between">
                         <div className="flex">
-                            <h1>{name}</h1>
-                            <h1 className='bg-blue-800 text-white px-4 rounded-2xl text-sm mx-3 flex items-center justify-center'>{sector}</h1>
+                            <h1 className="font-semibold">{name}</h1>
+                            <h1 className='bg-blue-800 text-white px-2 sm:px-4 rounded-2xl text-xs sm:text-sm mx-3 flex items-center justify-center'>{sector}</h1>
                         </div>
                         <div className="">
-                        <h1 className="text-sm text-blue-800 font-semibold">{time}</h1>
+                        <h1 className="text-xs sm:text-sm text-blue-800 font-semibold">{time}</h1>
                         </div>
                     </div>
                     <div className="">
