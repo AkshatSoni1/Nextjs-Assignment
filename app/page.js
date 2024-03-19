@@ -51,7 +51,9 @@ const Home = () => {
           :
           togglePages === "discuss" ?
           <DiscussionForum /> :
-          <MarketStories />
+          <MarketStories 
+              togglePages={togglePages}
+          />
           }
         </div>
       </div>
