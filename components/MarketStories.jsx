@@ -1,5 +1,5 @@
 import React from 'react'
-import MarketCard from './MarketCard'
+import MarketCard from './cards/MarketCard'
 import { stories } from '@/content/marketStories'
 
 const MarketStories = () => {

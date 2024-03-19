@@ -10,10 +10,10 @@ const DiscussCard = (props) => {
         <div className='w-full rounded-lg shadow-md shadow-gray-300 pb-4 my-8'>
             <div className="flex">
                 <div className="p-4">
+                    {/* Profile pic will be added here of different users */}
                     <IoPersonCircleOutline
                         className="text-4xl me-2"
                     />
-                    {/* Profile pic will be added here of different users */}
                 </div>
                 <div className="flex flex-col py-4 pe-4 w-full">
                     <div className="flex items-center justify-between">
@@ -31,10 +31,22 @@ const DiscussCard = (props) => {
                 </div>
             </div>
                 <div className="flex flex-wrap justify-evenly px-2">
-                    <div className="flex items-center"><FaRegHeart className="text-lg cursor-pointer"/><span className="px-1 text-sm">{likes}</span></div>
-                    <div className="flex items-center"><CgEye className="text-lg cursor-pointer"/><span className="px-1 text-sm">{views}</span></div>
-                    <div className="flex items-center"><BiComment className="text-lg cursor-pointer"/><span className="px-1 text-sm">{comments} comments</span></div>
-                    <div className="flex items-center"><FaShareAlt className="text-lg cursor-pointer"/><span className="px-1 text-sm">Share</span></div>
+                    <div className="flex items-center">
+                        <FaRegHeart className="text-lg cursor-pointer"/>
+                        <span className="px-1 text-sm">{likes}</span>
+                    </div>
+                    <div className="flex items-center">
+                        <CgEye className="text-lg cursor-pointer"/>
+                        <span className="px-1 text-sm">{views}</span>
+                    </div>
+                    <div className="flex items-center">
+                        <BiComment className="text-lg cursor-pointer"/>
+                        <span className="px-1 text-sm">{comments} comments</span>
+                    </div>
+                    <div className="flex items-center">
+                        <FaShareAlt className="text-lg cursor-pointer"/>
+                        <span className="px-1 text-sm">Share</span>
+                    </div>
                 </div>
         </div>
     )

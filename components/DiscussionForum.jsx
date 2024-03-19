@@ -1,5 +1,5 @@
 import React from 'react'
-import DiscussCard from './DiscussCard'
+import DiscussCard from './cards/DiscussCard'
 import { cardData } from '@/content/discussForumCard'
 
 const DiscussionForum = () => {
